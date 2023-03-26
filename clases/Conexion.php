@@ -1,6 +1,6 @@
 <?php
 
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/crud_mongo/vendor/autoload.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/crud_mongo/vendor/autoload.php';
     class Conexion {
         public function conectar() {
             try {
